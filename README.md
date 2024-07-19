@@ -1,9 +1,9 @@
-# Divvy-Bikes
-I will be living in the Chicago area soon as part of my Master's program at the University of Chicago. As someone who enjoyed using the electric bikes and scooters located on my undergrad campus, UCLA, I wanted to analyze some behaviors and patterns from the Chicago bike-sharing system that also services the UChicago campus area, Divvy.
+# Lyft-Bikes
+I will be living in the Chicago area soon as part of my Master's program at the University of Chicago. As someone who enjoyed using the electric bikes and scooters located on my undergrad campus, UCLA, I wanted to analyze some behaviors and patterns from the Chicago bike-sharing system that also services the UChicago campus area, Lyft's Divvy Bikes.
 
-Divvy provides its past ride data [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Learn more about Divvy's data collection and terms [here](https://divvybikes.com/system-data) I am using the ride data from the past year, so from May 2022 to May 2023, both in my quick cursory study as well as in my model building.
+Lyft provides its past ride data [here](https://divvy-tripdata.s3.amazonaws.com/index.html). Learn more about Lyft's data collection and terms [here](https://divvybikes.com/system-data) I am using the ride data from May 2022 to May 2023, both in my quick cursory study as well as in my model building.
 
-**Disclaimer**: I do not own any of the data used. All rights are with Divvy and Motivate.
+**Disclaimer**: I do not own any of the data used. All rights are with Lyft and Motivate.
 
 After cleaning and processing, the total size of the data came out to be around ~6.3 million rows, which I split into training, validation, and testing via a 98, 1, 1 split.
 
